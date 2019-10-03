@@ -82,7 +82,6 @@ def load_embeddings(path):
 
 # Pre-trained embedding match to my dataset.
 def text_to_vector(word_index, path):
-
     # If you change your embedding.pickle file, you must make new embedding.pickle file.
     if os.path.isfile("embedding.pickle"):
         with open("embedding.pickle", 'rb') as rotten_file:
